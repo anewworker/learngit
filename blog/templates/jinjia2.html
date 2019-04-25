@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ a }}
+   {% for i in a %}
+{#       {% if loop.first %}#}
+       {% if loop.index==1 %}
+            <p style="color: red">{{ loop.index }}: {{ i }} </p>
+           {% else %}
+            <p>{{ loop.index }}: {{ i }} </p>
+       {% endif %}
+       
+   {% endfor %}
+
+    {#  过滤器  #}
+
+     {{ h2 | safe }}
+    <br>
+    {{ '<p style="color:red;">博客内容</p>' | safe }}
+    {{ 'python' | upper }}          
+    {{ 'PYTHON'| lower }}
+    {{ 'python' | length }}
+    {# stripttags 去除样式 #}
+    {{ '<p style="color:red;">博客内容</p>' | striptags }}
+</body>
+</html>

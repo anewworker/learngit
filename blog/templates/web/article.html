@@ -1,0 +1,7 @@
+{% extends 'web/base.html' %}
+{% block articles %}
+{#     <div class="col-sm-8 blog-main">#}
+    <h2 style="text-align: center">{{ article.title | safe }}</h2>
+    {{ article.content |safe }}
+{#     </div>#}
+{% endblock %}

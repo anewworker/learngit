@@ -1,0 +1,98 @@
+{% extends 'web/base.html' %}
+{% block content %}
+{#           <div class="col-sm-8 blog-main" style="width: 780px;position: relative;lefe:0px">#}
+
+       {% for article in article_list %}
+             <article class="excerpt" style="margin-bottom: 3px;">
+            <div class="focus">
+{#                <img src="/static/image/douyu2.png" alt="[详细教程]如何购买域名和虚拟服务器。" title="[详细教程]如何购买域名和虚拟服务器。"/></a>#}
+                <img src="{{ article.img }}" alt="[详细教程]如何购买域名和虚拟服务器。" title="{{ article.img }}"/></a>
+            </div>
+            <header>
+              <h3>
+{#                <a href="/web/article/?title={{ article.title }}" title="[详细教程]如何购买域名和虚拟服务器。" >{{ article.title }}</a></h3>#}
+                  <a href="{{ url_for('web.article',title=article.title) }}" title="{{ article.title }}" style="overflow: hidden">{{ article.title }}</a></h3>
+
+            </header>
+            <p class="note" style="width:470px;height:50px; ">{{ article.describe }}</p>
+
+            <p style="margin-top:40px;">                 
+              <span class="muted">
+                <span class="glyphicon glyphicon-user"></span> {{ user.username }} </span>
+              <span class="muted">
+                <span class="glyphicon glyphicon-time"></span> {{ article.date }}</span>
+              <span class="muted">
+                <span class="glyphicon glyphicon-eye-open"></span>  928次浏览</span>
+             <span class="muted">个人博客：[<a href='/web/category/{{ article.c.c_name }}'>{{ article.c.c_name }}</a>]</span>
+
+            </p>
+          </article>
+       {% endfor %}
+
+
+
+{#          <article class="excerpt">#}
+{#            <div class="focus">#}
+{#                <img src="/static/image/douyu3.png" alt="什么是变量,数据类型有哪些？" title="什么是变量,数据类型有哪些？"/></a>#}
+{#            </div>#}
+{#            <header>#}
+{#              <h3>#}
+{#                <a href="/web/article" title="什么是变量,数据类型有哪些？" target="_blank">什么是变量,数据类型有哪些？</a></h3>#}
+{#            </header>#}
+{#            <p class="note">什么是变量 变量就是储存数据的空间。 变量的规范命名： 1.字下美人其后数 2.不可以使用关键词 3.不可以重复定义 4.首字母小写，其后首字母大写，还要见名知意。 变量的步骤： 先声...</p>#}
+{#            <p style="margin-top:40px;">#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-user"></span> 袁满潭 </span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-time"></span> 2017-02-08</span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-eye-open"></span>  828次浏览</span>#}
+{#             <span class="muted">个人博客：[<a href='/xx/'>python</a>]</span>#}
+{##}
+{#            </p>#}
+{#          </article>#}
+{##}
+{#            <article class="excerpt">#}
+{#            <div class="focus">#}
+{#                <img src="/static/image/douyu1.png" alt="Java中 为什么要使用if语句，if-else的用法" title="Java中 为什么要使用if语句，if-else的用法"/></a>#}
+{#            </div>#}
+{#            <header>#}
+{#              <h3>#}
+{#                <a href="/web/article" title="Java中 为什么要使用if语句，if-else的用法" target="_blank">Java中 为什么要使用if语句，if-else的用法</a></h3>#}
+{#            </header>#}
+{#            <p class="note">上一章我们学习了变量的用法和常用的数据类型：int double char String boolean等，另外也学习了一些运算符，包括算术运算符、赋值运算符以及关系运算符。...</p>#}
+{#            <p style="margin-top:40px;">#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-user"></span> 袁满潭 </span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-time"></span> 2017-02-08</span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-eye-open"></span>  704次浏览</span>#}
+{#             <span class="muted">个人博客：[<a href='/xx/'>python</a>]</span>#}
+{##}
+{#            </p>#}
+{#          </article>#}
+{##}
+{#            <article class="excerpt">#}
+{#            <div class="focus">#}
+{#              <!--<a href="/yl/752.html" class="thumbnail" target="_blank">-->#}
+{#                <img src="/static/image/sanmao.jpg" alt=" “三毛”与我的故事" title="“三毛”与我的故事"/></a>#}
+{#            </div>#}
+{#            <header>#}
+{#              <h3>#}
+{#                <a href="/web/article" title="现实“三毛”与我的故事" target="_blank">现实“三毛”与我的故事</a></h3>#}
+{#            </header>#}
+{#            <p class="note">讲个故事给大家听下: 隆隆ago 大家都听过三毛流浪记的故事 那是发生在旧社会的故事 三毛流浪在城市的某个角落 做着各种各样的事情，事情的内容 请各位自己回忆和脑补...</p>#}
+{#            <p style="margin-top:40px;">#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-user"></span> 袁满潭 </span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-time"></span> 2017-02-08</span>#}
+{#              <span class="muted">#}
+{#                <span class="glyphicon glyphicon-eye-open"></span>  1288次浏览</span>#}
+{#             <span class="muted">个人博客：[<a href='/xx/'>天空之城</a>]</span>#}
+{#            </p>#}
+{#          </article>#}
+
+{#        </div><!-- /.blog-main -->#}
+{% endblock %}
