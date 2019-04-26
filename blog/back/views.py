@@ -6,7 +6,7 @@ from flask import Blueprint, render_template, request, session, redirect,url_for
 from werkzeug.security import generate_password_hash,check_password_hash
 import math
 
-from back.models import db,User,Article,Category
+from back.models import db, User, Article, Category, Link
 from utls.function import login_required
 
 back=Blueprint('back',__name__)
@@ -63,7 +63,8 @@ def index():
 	count_art=len(Article.query.filter().all())
 	count_user=len(User.query.filter().all())
 	Datetime=datetime.now()
-	return  render_template('back/index.html',title='index',count_art=count_art,count_user=count_user,datetime=Datetime,username=username)
+	count_link=len(Link.query.filter().all())
+	return  render_template('back/index.html',title='index',count_art=count_art,count_user=count_user,datetime=Datetime,username=username,count_link=count_link)
 
 # @back.route('/article/<int:page>',methods=["GET","POST"])
 # @login_required
@@ -281,4 +282,35 @@ def delete_category():
 		data={"count":count}
 		return jsonify(data)
 		# return redirect(url_for('back.category'))
-		
+
+
+@back.route('/link/',methods=["GET","POST"])
+@login_required
+def link():
+	if request.method=="GET":
+		link_list=Link.query.filter().all()
+		return render_template('back/link.html',link_list=link_list,title="Link")
+	if request.method=="POST":
+		name=request.form.get("name")
+		oname=request.form.get("alias")
+		url='http://'+str(request.form.get("url"))
+		link=Link()
+		link.l_name=name
+		link.l_url=url
+		link.l_oname=oname
+		db.session.add(link)
+		db.session.commit()
+		return redirect(url_for('back.link'))
+
+
+
+@back.route('/link/delete/',methods=["POST"])
+@login_required
+def link_delete():
+	id=request.form.get("id")
+	link=Link.query.filter(Link.id==id).first()
+	db.session.delete(link)
+	db.session.commit()
+	data={"0":"删除成功"}
+	return jsonify(data)
+

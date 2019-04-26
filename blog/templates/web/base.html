@@ -149,8 +149,19 @@
 					<!--友联的width是290px 每个的宽度290/2 = 145； 145-120=25/2=12.5-->
 
 					<ul class="friendlyLink">
+                        {% for link in link_list %}
 
-						<li><a href='http://www.mywhblog.cn/' target='_blank'>梦影雾花个人博客</a> </li><li><a href='http://10.20.153.71:8099' target='_blank'>python程序员博客</a> </li><li><a href='http://guminfeng.cn' target='_blank'>顾敏锋博客</a> </li><li><a href='http://www.yinhuafeng.cn/' target='_blank'>华峰博客</a> </li><li><a href='http://www.iwuhe.cn' target='_blank'>衍帝博客</a> </li><li><a href='http://www.bobcoder.cc' target='_blank'>Bob的博客</a> </li><li><a href='http://www.loveif.com' target='_blank'>晓兔个人博客</a> </li><li><a href='http://www.dbgseo.com' target='_blank'>深圳seo</a> </li>
+
+
+						<li><a href="{{ link.l_url }}" target='_blank'>{{ link.l_name }}</a> </li>
+{#                        <li><a href='http://10.20.153.71:8099' target='_blank'>python程序员博客</a> </li>#}
+{#                        <li><a href='http://guminfeng.cn' target='_blank'>顾敏锋博客</a> </li>#}
+{#                        <li><a href='http://www.yinhuafeng.cn/' target='_blank'>华峰博客</a> </li>#}
+{#                        <li><a href='http://www.iwuhe.cn' target='_blank'>衍帝博客</a> </li>#}
+{#                        <li><a href='http://www.bobcoder.cc' target='_blank'>Bob的博客</a> </li>#}
+{#                        <li><a href='http://www.loveif.com' target='_blank'>晓兔个人博客</a> </li>#}
+{#                        <li><a href='http://www.dbgseo.com' target='_blank'>深圳seo</a> </li>#}
+                           {% endfor %}
 					</ul>
 				</div>
 

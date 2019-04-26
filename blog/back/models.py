@@ -32,4 +32,11 @@ class Article(db.Model):
 	# 	self.title = title
 	# 	self.content=content
 	# 	self.keywords=keywords
+class Link(db.Model):
+	id=db.Column(db.Integer,primary_key=True,autoincrement=True)
+	l_name=db.Column(db.String(50),nullable=True)
+	l_url=db.Column(db.String(60),nullable=True)
+	l_oname=db.Column(db.String(50),nullable=True)
+	__tablename__='link'
+
 

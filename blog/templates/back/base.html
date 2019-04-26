@@ -77,7 +77,9 @@
                 {% elif title=="update_category" %}
                 class="active"
         {% endif %}><a href="/back/category">栏目</a></li>
-        <li><a class="dropdown-toggle" id="otherMenu" href="#">其他</a>
+        <li {% if title=="Link" %}
+               class="active"
+        {% endif %}><a class="dropdown-toggle" id="otherMenu" href="/back/link/">友链</a>
          
         </li>
       </ul>
@@ -106,6 +108,9 @@
         {% block update_article %}
         {% endblock %}
         {% block update_category %}
+
+        {% endblock %}
+        {% block link %}
 
         {% endblock %}
   </div>
