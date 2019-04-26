@@ -8,7 +8,7 @@ class User(db.Model):
 
 	username=db.Column(db.String(10),primary_key=True)
 	password=db.Column(db.String(100))
-	__tablename__='User'
+	__tablename__='user'
 
 class Category(db.Model):
 	id=db.Column(db.Integer,primary_key=True,autoincrement=True)
