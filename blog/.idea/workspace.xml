@@ -11,7 +11,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/blog__$manage.coverage" NAME="manage Coverage Results" MODIFIED="1556184979720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/blog$views.coverage" NAME="views Coverage Results" MODIFIED="1555812954089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/back" />
-    <SUITE FILE_PATH="coverage/blog$manage.coverage" NAME="manage Coverage Results" MODIFIED="1556358883644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/blog$manage.coverage" NAME="manage Coverage Results" MODIFIED="1556366752988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/blog$user.coverage" NAME="user Coverage Results" MODIFIED="1555663575768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -33,50 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/back/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="87" column="202" selection-start-line="87" selection-start-column="191" selection-end-line="87" selection-end-column="202" />
+            <state relative-caret-position="22">
+              <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#4446#4914#0" />
+                <element signature="e#5022#5684#0" />
+                <element signature="e#5776#7216#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/requirement.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/web/category.html">
+        <entry file="file://$PROJECT_DIR$/templates/back/article.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/web/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="74" column="132" selection-start-line="74" selection-start-column="132" selection-end-line="74" selection-end-column="132" />
+            <state relative-caret-position="22">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -137,17 +113,17 @@
         <option value="$PROJECT_DIR$/templates/back/link.html" />
         <option value="$PROJECT_DIR$/templates/back/base.html" />
         <option value="$PROJECT_DIR$/templates/back/index.html" />
-        <option value="$PROJECT_DIR$/back/views.py" />
         <option value="$PROJECT_DIR$/static/web/index1.css" />
         <option value="$PROJECT_DIR$/templates/web/index.html" />
         <option value="$PROJECT_DIR$/templates/web/base.html" />
         <option value="$PROJECT_DIR$/web/views.py" />
         <option value="$PROJECT_DIR$/templates/web/category.html" />
         <option value="$PROJECT_DIR$/requirement.txt" />
+        <option value="$PROJECT_DIR$/back/views.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="214" />
     <option name="y" value="142" />
     <option name="width" value="1020" />
@@ -159,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +157,12 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,13 +173,18 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,17 +198,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wordspace\blog\static\back" />
-      <recent name="E:\wordspace\blog\static" />
-      <recent name="E:\wordspace\blog\static\web" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\learngit\blog\static\image" />
       <recent name="E:\wordspace\blog--\static\image" />
       <recent name="E:\wordspace\blog--\templates\back" />
       <recent name="E:\wordspace\blog\templates" />
       <recent name="E:\wordspace\blog\templates\back" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wordspace\blog\static\back" />
+      <recent name="E:\wordspace\blog\static" />
+      <recent name="E:\wordspace\blog\static\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,23 +346,24 @@
       <workItem from="1556278150328" duration="7844000" />
       <workItem from="1556330581265" duration="214000" />
       <workItem from="1556332404061" duration="2795000" />
-      <workItem from="1556345525762" duration="15604000" />
+      <workItem from="1556345525762" duration="16221000" />
+      <workItem from="1556365801037" duration="948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297501000" />
+    <option name="totallyTimeSpent" value="299066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2980333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.21482602" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290441" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.23895253" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.28968903" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.15711948" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,13 +401,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Envs/blog/Lib/site-packages/werkzeug/_reloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/jinjia2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -603,13 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/sky_city.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/sky_city.html" />
     <entry file="file://$PROJECT_DIR$/templates/back/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1848">
@@ -648,19 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/web/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4964">
-          <caret line="301" column="27" selection-start-line="301" selection-start-column="27" selection-end-line="301" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/web/index.css" />
     <entry file="file://$PROJECT_DIR$/templates/web/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -675,16 +639,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/back/article.html">
+    <entry file="file://$PROJECT_DIR$/requirement.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-738">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
+        <state relative-caret-position="1606">
           <caret line="74" column="132" selection-start-line="74" selection-start-column="132" selection-end-line="74" selection-end-column="132" />
         </state>
       </provider>
@@ -692,13 +656,27 @@
     <entry file="file://$PROJECT_DIR$/templates/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/back/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
+        <state relative-caret-position="559">
           <caret line="87" column="202" selection-start-line="87" selection-start-column="191" selection-end-line="87" selection-end-column="202" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -706,17 +684,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/image/searchbtn.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirement.txt">
+    <entry file="file://$PROJECT_DIR$/back/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="22">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#4446#4914#0" />
+            <element signature="e#5022#5684#0" />
+            <element signature="e#5776#7216#0" />
+          </folding>
         </state>
       </provider>
     </entry>

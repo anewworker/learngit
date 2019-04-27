@@ -113,16 +113,16 @@ def Ajax_article():
 		title=request.form.get("title")
 		article=Article.query.filter(Article.title==title).first()
 		img = article.img
-		if img:
-			new_img=os.path.split(img)[-1]
-			path=os.path.join(os.path.dirname(os.path.dirname(__file__)),'static/image/')
-			# print(path)
-			picture_path = os.path.join(path, new_img)
-			os.remove(picture_path)
+		if img=='/static/image/sanmao.jpg':
 			db.session.delete(article)
 			db.session.commit()
 			data={"code":"删除成功"}
 			return  jsonify(data)
+		new_img = os.path.split(img)[-1]
+		path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'static/image/')
+		# print(path)
+		picture_path = os.path.join(path, new_img)
+		os.remove(picture_path)
 		db.session.delete(article)
 		db.session.commit()
 		data = {"code": "删除成功"}
