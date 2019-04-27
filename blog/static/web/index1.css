@@ -649,3 +649,51 @@ input.search-input:hover {
 }
 
 
+.pagenavi {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+                     
+.pagenav .page-numbers,
+.pagenavi .current,
+.pagenavi .dots,
+.pagenavi a {
+	display: inline-block;
+	margin-right: 4px;
+	padding: 5px 10px;
+	border: 1px solid #d8d8d8;
+	border-radius: 3px;
+	background: #fff;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+	color: #555
+}
+.pages{
+	text-align: center;
+}
+.pages li {
+	display: inline;
+}
+
+.pagenavi .current,
+.pagenavi a:hover {
+	border-color: #888;
+	background: #888;
+	color: #fff
+}
+.pages li.thisclass{
+	display:inline-block;
+	 width:32px;
+	 height:34px;
+    border: 1px solid #666;
+    border-radius: 3px;
+    background: #888;
+    color: #fff;
+    text-decoration: none;
+
+
+	}
+
+
+

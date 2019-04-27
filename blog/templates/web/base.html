@@ -62,7 +62,7 @@
 	display: block;
 	margin: 0 10px 0 0;
 	font-size: 14px">
-       <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="/web/index">首页</a></li>
+       <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="/web/index/1">首页</a></li>
 
 {#       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">#}
 {#		<a href="/about/">关于</a>#}
@@ -71,7 +71,8 @@
 {#        <li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="/lxw/">友链互换</a></li>#}
 {#        </ul></li>#}
       {% for category in category_list %}
-          <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="{{ url_for('web.category',category=category.c_name) }}">{{ category.c_name }}</a></li>
+{#          <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="{{ url_for('web.category',category=category.c_name) }}">{{ category.c_name }}</a></li>#}
+            <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="/web/{{category.c_name }}/1">{{ category.c_name }}</a></li>
       {% endfor %}
           <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home"><a href="/web/about/">关于</a></li>
 	</ul>
