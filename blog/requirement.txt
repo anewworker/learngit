@@ -1,0 +1,6 @@
+flask
+Fkask-Script
+Flask-SQLAlchemy
+SQLAlchemy
+pymysql
+
