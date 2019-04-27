@@ -12,7 +12,7 @@ def index():
 	user=User.query.filter(User.username=="袁满潭").first()
 	category_list=Category.query.filter().order_by(Category.id).all()
 	link_list=Link.query.filter().order_by(Link.id).all()
-	print(link_list)
+	# print(link_list)
 	#将数据传入模板并渲染
 	return  render_template('web/index.html',title="最新发布",article_list=article_list,user=user,category_list=category_list,link_list=link_list)
 

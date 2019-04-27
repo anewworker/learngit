@@ -1,6 +1,6 @@
 flask
-Fkask-Script
-Flask-SQLAlchemy
+Flask-Script
+flask-sqlalchemy
 SQLAlchemy
 pymysql
 

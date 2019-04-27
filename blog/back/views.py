@@ -44,7 +44,7 @@ def login():
 		#获取从前端输入的数据
 		username=request.form.get('username')
 		password=request.form.get('password')
-		print(username,password)
+		# print(username,password)
 		#从数据库查找数据
 		user=User.query.get(username)
 		#判断账号密码是否匹配
