@@ -10,6 +10,6 @@ def login_required(func):
 			return  func(*args,**kargs)
 		except:
 			#未登录的情况
-			return  redirect(url_for("back.index"))
+			return  redirect(url_for("back.login"))
 			# return render_template('back/login.html')
 	return check

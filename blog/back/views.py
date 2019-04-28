@@ -49,17 +49,19 @@ def login():
 		user=User.query.get(username)
 		#判断账号密码是否匹配
 		# print(check_password_hash(user.password,password))
-		if username==user.username and check_password_hash(user.password,password):
-			session['username']=username
-			return redirect(url_for('back.index'))
+		if user:
+			if username==user.username and check_password_hash(user.password,password):
+				session['username']=username
+				return redirect(url_for('back.index'))
+		return 	 render_template('back/login.html')
 	return render_template('back/login.html')
 
 @back.route('/index/')
-# @login_required
+@login_required
 def index():
 	username=session.get("username")
-	if not username:
-		return  render_template('back/login.html')
+	# if not username:
+	# 	return  render_template('back/login.html')
 	count_art=len(Article.query.filter().all())
 	count_user=len(User.query.filter().all())
 	Datetime=datetime.now()
@@ -79,6 +81,7 @@ def index():
 	
 
 @back.route('/article/',methods=["GET","POST"])
+@login_required
 def Ajax_article():
 	username=session.get("username")
 	if request.method=="GET":
@@ -196,7 +199,7 @@ def add_article():
 			article.img='/'+picture_path
 			db.session.add(article)
 			db.session.commit()
-			return redirect(url_for('back.article'))
+			return redirect(url_for('back.Ajax_article'))
 			# return redirect('/back/article/')
 			# return render_template('back/article.html')
 		else:
@@ -209,7 +212,7 @@ def add_article():
 
 			db.session.add(article)
 			db.session.commit()
-			return redirect(url_for('back.article'))
+			return redirect(url_for('back.Ajax_article'))
 
 
 @back.route('/check_title/',methods=["GET"])
@@ -225,7 +228,6 @@ def check_title():
 
 @back.route('/update_article/<string:title>',methods=["GET","POST"])
 @login_required
-
 def update_article(title):
 	global id
 	if request.method=="GET":
@@ -252,7 +254,7 @@ def update_article(title):
 			article.img = '/' + picture_path
 		db.session.add(article)     
 		db.session.commit()
-		return redirect(url_for('back.article'))
+		return redirect(url_for('back.Ajax_article'))
 		#
 		# else:
 		# 	article = Article.query.filter(Article.id == id).first()
@@ -287,9 +289,10 @@ def delete_category():
 @back.route('/link/',methods=["GET","POST"])
 @login_required
 def link():
+	username=session.get("username")
 	if request.method=="GET":
 		link_list=Link.query.filter().all()
-		return render_template('back/link.html',link_list=link_list,title="Link")
+		return render_template('back/link.html',link_list=link_list,title="Link",username=username)
 	if request.method=="POST":
 		name=request.form.get("name")
 		oname=request.form.get("alias")
