@@ -77,7 +77,7 @@ def category(category,page):
 	all_article=len(categ.arts)
 	id=categ.id
 	# print(id)
-	article_list=Article.query.filter(Article.category_id==id).offset((page - 1) * 5).limit(5).all()
+	article_list=Article.query.filter(Article.category_id==id).order_by(-Article.id).offset((page - 1) * 5).limit(5).all()
 	# article_list.reverse()
 	user = User.query.filter(User.username == "袁满潭").first()
 	category_list = Category.query.filter().order_by(Category.id).all()
