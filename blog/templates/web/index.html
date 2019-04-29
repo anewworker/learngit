@@ -12,6 +12,7 @@
               <h3>
 {#                <a href="/web/article/?title={{ article.title }}" title="[详细教程]如何购买域名和虚拟服务器。" >{{ article.title }}</a></h3>#}
                   <a href="{{ url_for('web.article',title=article.title) }}" title="{{ article.title }}" style="overflow: hidden">{{ article.title }}</a></h3>
+{#                <a href="javascript:;" title="{{ article.title }}" class="article" style="overflow: hidden">{{ article.title }}</a></h3>#}
 
             </header>
             <p class="note" style="width:470px;height:50px; ">{{ article.describe }}</p>
@@ -22,8 +23,10 @@
               <span class="muted">
                 <span class="glyphicon glyphicon-time"></span> {{ article.date }}</span>
               <span class="muted">
-                <span class="glyphicon glyphicon-eye-open"></span>  928次浏览</span>
-             <span class="muted">个人博客：[<a href='/web/category/{{ article.c.c_name }}'>{{ article.c.c_name }}</a>]</span>
+{#                <span class="glyphicon glyphicon-eye-open"></span>  928次浏览</span>#}
+                <span class="glyphicon glyphicon-eye-open"></span>  {{ article.hitcount }}次浏览</span>
+
+             <span class="muted">个人博客：[<a href='/web/{{ article.c.c_name }}/1'>{{ article.c.c_name }}</a>]</span>
 
             </p>
           </article>
@@ -59,6 +62,9 @@
     <script>
     $(function () {
 
+       $('.article').click(function () {
+               console.log(1)
+       })
 
 
 

@@ -1,6 +1,7 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request,session
 
 from back.models import Article, User, Category, Link
+from back.models import db
 import math
 
 web=Blueprint('web',__name__)
@@ -32,10 +33,6 @@ def get_article(page):
 	category_list=category_list, link_list=link_list, count_page=count_page,all_article=all_article,page_now=page)
 
 
-
-
-
-
 # @web.route('/article/',methods=["GET"])
 # def article():
 # 	title=request.args.get("title")
@@ -46,8 +43,11 @@ def get_article(page):
 def article(title):
 	title1=title
 	article=Article.query.filter(Article.title==title).first()
+	article.hitcount+=1
 	category_list = Category.query.filter().order_by(Category.id).all()
 	link_list = Link.query.filter().order_by(Link.id).all()
+	db.session.add(article)
+	db.session.commit()
 	return render_template('web/article.html',title="详细资讯",article=article,title1=title1,category_list=category_list,link_list=link_list)
 
 @web.route('/about/')

@@ -25,6 +25,7 @@ class Article(db.Model):
 	date=db.Column(db.DateTime, default=datetime.now)
 	img = db.Column(db.String(100),default='/static/image/sanmao.jpg')
 	category_id=db.Column(db.Integer,db.ForeignKey("category.id"))
+	hitcount=db.Column(db.Integer,default=0)
 
 	__tablename__="article"
 
