@@ -28,7 +28,7 @@
        {% endfor %}
            <div class="pagenavi clearfix">
             <div class="pages">
-            <li><a href="/web/{{ title }}/1/">首页</a></li>
+            <li><a href="/web/{{ title }}/1">首页</a></li>
 {#        <li><a href='/web/index/{{ page }}'>上一页</a></li>#}
                 {% for page in range(1,count_page) %}
                      <li {% if page_now==loop.index %}
@@ -41,7 +41,7 @@
 {#        <li class="thisclass"><a>2</a></li>#}
 {#        <li><a href='list_25_3.html'>3</a></li>#}
 {#        <li><a href='list_25_3.html'>下一页</a></li>#}
-            <li><a href="/web/{{ title }}/{{ count_page-1 }}/">尾页</a></li>
+            <li><a href="/web/{{ title }}/{{ count_page-1 }}">尾页</a></li>
         <li><span class="pageinfo">共 <strong>{{ count_page-1 }}</strong>页<strong>{{ all_article }}</strong>条</span></li>
 
             </div>

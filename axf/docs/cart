@@ -1,0 +1,52 @@
+####  请求地址
+    /api/cart/cart/
+####   请求方式一
+         get
+       
+#####  请求参数        
+       token    str   必填    用户登录唯一标识符
+#####   响应参数             
+    {
+        code:200,
+        msg:"请求成功"
+        data:{
+            carts:{                          订单详情   
+                c_goods{                     订单商品信息
+                    categoryid: 104749
+                    childcid: 103537
+                    childcidname: "酸奶乳酸菌"
+                    dealerid: 4858
+                    id: 496
+                    isxf: true
+                    marketprice: 15
+                    pmdesc: true
+                    price: 8.9
+                    productid: 109108
+                    productimg: "http://img01.bqstatic.com/upload/goods/201/605/3109/20160531095221_551975.jpg@200w_200h_90Q"
+                    productlongname: "三元轻能黄桃+大麦优酪乳250g"
+                    productname: "三元轻能黄桃+大麦优酪乳"
+                    productnum: 34
+                    specifics: "250g"
+                    storenums: 50
+             },
+               total_price:8.9   订单总价
+             
+            }
+        }
+    
+    }
+
+
+
+
+#### 请求方式二 
+    patch
+##### 请求参数
+    goodsid     int    必填        商品id
+    token       int    必填        用户登录唯一标识符
+
+##### 响应参数
+    {
+     code:200
+     msg:'修改成功'   
+    }        

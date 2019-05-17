@@ -1,0 +1,40 @@
+###     登录接口
+###     请求地址    
+####    /api/user/auth/register/
+###     请求方式  
+####    post  
+###     请求参数    
+    u_username  登录账号     string  必填
+    u_password  登录密码     string  必填
+    u_password2 确认密码     string  必填
+    u_email     邮箱         string  必填
+###     响应
+####    响应参数
+    code                状态码       int
+    msg                 响应信息     string
+    serializer.data     输入限制     string
+    user_id             用户id       int
+####1.响应成功
+    {
+    code:200,
+    msg:注册成功,
+    'user_id':user.id
+    }
+
+####    2.响应失败
+    {
+    'code':1001,
+    'msg':"注册用户已存在"
+    }
+
+    {
+    'code':1002,
+    'msg':"两次输入密码不一致"
+    }
+    
+    {
+    'code':1003,
+    'msg':'参数校验失败',
+    'data':serializer.errors
+    }
+      

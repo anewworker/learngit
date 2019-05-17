@@ -1,0 +1,12 @@
+####    请求地址
+     /api/cart/cart/change_all/
+####    请求方式
+      patch       
+####    请求参数
+    token     str     必填        用户登录唯一标识符
+
+####    响应参数
+    {
+        code：200
+        msg:'修改状态成功'
+    }            

@@ -1,0 +1,79 @@
+
+#### 请求地址
+    /api/orders/orders/
+##### 请求方式一
+    post
+#####   请求参数
+    token  str  必填   用户登录唯一标识符
+#####   成功响应
+    {
+        code:200
+        msg:'下单成功，配单中...'
+    }    
+#####  失败响应
+     {
+        code:1010
+        msg：购物车中没有商品
+     
+     }  
+     
+     {
+        code:1008
+        msg:请先登录
+     
+     }   
+     
+     
+#### 请求方式二
+    get
+##### 请求参数
+      token         str  必填   用户登录唯一标识符
+      o_status      str  必填   订单状态     
+##### 响应参数
+       {
+         code:200
+         msg:'请求成功'
+         data:{
+            o_price: 12.8
+            o_status: 0
+            o_time: "2019-05-15T14:12:42.767692Z"
+            o_user: 10
+            order_goods_info:{
+               id：15
+               o_goods_num: 1
+               o_order:8
+               o_goods:{
+                    categoryid: 103536
+                    childcid: 103537
+                    childcidname: "酸奶乳酸菌"
+                    dealerid: 4858
+                    id: 559
+                    isxf: true
+                    marketprice: 7.5
+                    pmdesc: true
+                    price: 6.8
+                    productid: 35680
+                    productimg: "http://img01.bqstatic.com/upload/goods/201/602/2309/20160223093015_058280.jpg@200w_200h_90Q"
+                    productlongname: "伊利大果粒芒果+黄桃260g"
+                    productname: "伊利大果粒芒果+黄桃"
+                    productnum: 12
+                    specifics: "260g"
+                    storenums: 50
+               
+               
+               } 
+            
+            
+            }
+         
+         }
+            
+       }
+    
+    
+
+         
+     
+      
+    
+            

@@ -1,0 +1,87 @@
+#### 1. 获取前端的数据
+#####  1.1 Get
+      Flask:       request.args.get(key)
+      Tornado:     self.get_argument(key)
+      Django:      request.GET.get(key) 
+##### 1.2 Post
+      Flask:        request.form.get(key)
+      Tornado:      self.get_argument(key)  
+      Django:       request.POST.get(key)
+    
+#### 2. 数据库增删改查
+#####   2.1 增加：
+    Flask:      db.session.add(obj)
+    Tornado:    session.add(obj)
+    Django:     1.Models.objects.create()        
+                2.save()
+
+##### 2.2   删除：      
+    Flask:     db.session.delete(obj)
+               db.session.commit() 
+    Tornado    session.delete(obj)
+               session.commit()
+    Django     1.Models.object.filter().delete()             
+               2.obj.delete()
+     
+#####  2.3  更改：
+    Flask:     db.session.add(obj)
+               db.session.commit() 
+    Tornado:   session.add(obj)
+               session.commit()   
+    Django:    1.obj.save() 
+               2.Models.objects.filter(条件1).update(更改内容)           
+                                            
+#####   2.4 查询：
+    Flask:     Models.query.filter(Models.字段=='')
+    Tornado:   session.query(Models).filter(Models.字段=='')  
+    Django     Models.objects.filter(字段=='') 
+               Models.objects.get(pk= )  
+               pk 主键      
+
+####  3   Cookie
+    
+#####  3.1 设置cookie
+    cookie是在响应的前提下设置的所以获取用request,删除和设置都用response对象操作.
+    如果max_age和expires都设置了，那么这时候以max-age为标准
+    res=Response('...')    
+    Flask:      res.ser_cookie(key,value,max_age= ,expires= ,)
+    Tornado:    正常：self.set_cookie(key,value,max_age= ,expires= ,)
+                加密：self.set_secure_cookie()      
+    Django:    res.set_cookie(key,value,max_age= ,expires= )      
+#####   3.2 获取cookie
+    Flask:     request.cookies.get(key)     
+    Tornado:   self.get_cookie(key)
+               self.get_secure_cookie(key) 
+    Django:    request.COOKIES[key]
+               request.COOKIES.get(key)
+                               
+##### 3.3 清除cookie
+    Flask:     res.delete_cookie(key)
+    Tornado:   self.clear_cookie(key)
+               self.clear_all_cookies()
+    Django:    res.delete_cookie(key)          
+     
+####    4 Session
+#####   4.1 设置session
+    Flask:     session[key]=value
+    Todnado:   self.session.set(key,value)
+    Django:    request.session[key]=value             
+     
+#####   4.2 获取session
+    Flask:     session.get(key)
+    Tornado:   self.seeion.get(key)       
+    Django:    request.session.get(key)
+               request.session[key]  
+               request.session.keys()/values()/items()
+#####   4.3 清除session
+    Flask:     session.pop(key)
+               session.clear()
+    Tornado:   self.clear_cookie(key)
+    Django:    del session[key]
+               request.session.pop(key)
+               request.session.delete()
+               request.session.flush()                                   
+
+                   
+                     
+    

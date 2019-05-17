@@ -1,0 +1,44 @@
+#### 请求地址
+    /api/goods/market/
+    
+####    请求参数
+        typeid:        int  必填    主分类id   
+        childcid:      int  必填    子分类id
+        order_rule:    int  必填    排序id
+####    响应参数
+    {
+     code:200
+     msg:请求成功,
+     data:{
+          foodtype_childname_list:{     
+                child_name:  全部分类     子分类名称
+                child_value:   0          子分类值
+          }，
+          goods_list：{
+                categoryid: 104749
+                childcid: 103543
+                childcidname: "膨化食品"
+                dealerid: 4858
+                id: 495
+                isxf: true
+                marketprice: 1
+                pmdesc: true
+                price: 1
+                productid: 119570
+                productimg: "http://img01.bqstatic.com/upload/goods/201/703/1318/20170313185620_821516.jpg@200w_200h_90Q"
+                productlongname: "麻辣味鲅鱼32g"
+                productname: "麻辣味鲅鱼"
+                productnum: 34
+                specifics: "32g"
+                storenums: 50
+          }，
+          order_rule_list：{
+               order_name:'综合排序'   排序方法名称 
+               order_value:0           排序方法value       
+          
+          }
+        
+     }   
+    
+    
+    }

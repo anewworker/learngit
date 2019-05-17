@@ -1,0 +1,70 @@
+####商品请求接口
+##### 请求地址
+    /api/goods/home/
+#####请求方式
+        Get
+##### 请求参数
+        无
+##### 响应参数
+    {
+    code:200    状态码
+    msg:"请求成功"   提示信息
+    data:{
+        main_must_buy:{
+             id: 1   商品id
+             img:   "http://img01.bqstatic.com//upload/activity/2017031715194326.jpg@90Q.jpg"  商品图片
+             name:"酸奶女王",       商品名称
+             trcckid:21870
+             
+        }，
+        main_navs:{
+            id: 1   导航菜单id
+            img:"http://img01.bqstatic.com//upload/activity/2017032016495169.png"  导航菜单图片
+            name:'每日必抢'    导航菜单名称
+            trackid:21851
+        },
+        main_shops:{
+            id:1   主推商品id
+            img:"http://img01.bqstatic.com//upload/activity/2017031018205492.jpg@90Q.jpg"  主推商品图片
+            name: "爱鲜蜂·特小凤西瓜1.5-2.5kg/粒"  主推商品名称
+            tracjid:21782
+        },
+        main_show:{
+            brandname: "爱鲜蜂"
+            categoryid: 103532
+            childcid1: 103533
+            childcid2: 103534
+            childcid3: 103533
+            id: 1
+            img: "http://img01.bqstatic.com//upload/activity/2017031018205492.jpg@90Q.jpg"
+            img1: "http://img01.bqstatic.com/upload/goods/201/701/1916/20170119164159_996462.jpg@200w_200h_90Q"
+            img2: "http://img01.bqstatic.com/upload/goods/201/611/1617/20161116173544_219028.jpg@200w_200h_90Q"
+            img3: "http://img01.bqstatic.com/upload/goods/201/701/1916/20170119164119_550363.jpg@200w_200h_90Q"
+            longname1: "爱鲜蜂·特小凤西瓜1.5-2.5kg/粒"
+            longname2: "蜂觅·越南直采红心火龙果350-450g/盒"
+            longname3: "爱鲜蜂·海南千禧果400-450g/盒"
+            marketprice1: 25.8
+            marketprice2: 15.8
+            marketprice3: 13.8
+            name: "优选水果"
+            price1: 25.8
+            price2: 15.3
+            price3: 9.9
+            productid1: 118824
+            productid2: 116950
+            productid3: 118826
+            trackid: 21782
+        },
+        main_wheels:{
+            id:2  轮播商品id
+            img: "http://img01.bqstatic.com//upload/activity/2017031710450787.jpg@90Q.jpg" 轮播商品图片
+            name:‘优选圣女果’ 轮播商品名称  
+            trackid:21869
+            
+        }
+        
+    
+    }
+    
+    }
+               

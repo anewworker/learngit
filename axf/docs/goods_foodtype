@@ -1,0 +1,15 @@
+#### 请求地址
+    /api/goods/foodtype/
+#### 请求参数
+    无
+####  响应参数        
+    {"code":200,                    状态码
+    "msg":"请求成功",                提示信息            
+    "data":{
+            "id":1,         分类id      
+            "typeid":104749,        分类tyoeid       
+            "typename":"热销榜",     分类名称
+            "childtypenames":"全部分类:0",  子分类名称及编号  
+            "typesort":1
+            }
+          }

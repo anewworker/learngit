@@ -1,0 +1,757 @@
+20 root 2019-05-16 09:23:43,492 0:00:00.785045ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 09:24:11,654 0:00:00.642036ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 09:25:18,696 0:00:01.071061ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 09:47:07,973 0:00:03.593205ms GET /api/orders/orders/ 200 4243
+20 root 2019-05-16 09:47:11,702 0:00:03.893223ms GET /api/orders/orders/ 200 3240
+20 root 2019-05-16 09:47:13,456 0:00:04.640265ms GET /api/orders/orders/ 200 4243
+20 root 2019-05-16 09:57:20,139 0:00:00.368021ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 09:59:19,684 0:00:00.369021ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:22,512 0:00:00.124007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:24,058 0:00:00.113006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:24,890 0:00:00.115007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:25,484 0:00:00.101006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:25,916 0:00:00.114006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 09:59:38,501 0:00:00.106006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:19,598 0:00:00.152009ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:01:21,455 0:00:00.141008ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:22,547 0:00:00.111006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:23,186 0:00:00.107006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:26,030 0:00:00.121007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:46,036 0:00:00.183011ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:52,201 0:00:00.139008ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:01:53,917 0:00:00.119007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:01:54,867 0:00:00.107006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:02:15,020 0:00:00.138008ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:02:16,677 0:00:00.116006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:02:17,497 0:00:00.133007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:02:18,186 0:00:00.107006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:02:57,629 0:00:00.156009ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:02:59,092 0:00:00.107006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:02:59,914 0:00:00.131007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:04:15,682 0:00:00.475027ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:04:18,441 0:00:00.224013ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 10:04:18,651 0:00:00.383022ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 10:04:22,957 0:00:01.707098ms GET /api/goods/market/ 200 84734
+20 root 2019-05-16 10:04:28,214 0:00:02.248129ms GET /api/goods/market/ 200 84734
+20 root 2019-05-16 10:04:32,530 0:00:00.399023ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 10:04:33,571 0:00:00.346020ms GET /api/cart/cart/ 200 554
+20 root 2019-05-16 10:04:35,747 0:00:00.632036ms POST /api/orders/orders/ 200 61
+20 root 2019-05-16 10:04:36,182 0:00:00.224013ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 10:04:42,978 0:00:01.299074ms GET /api/orders/orders/ 200 4809
+20 root 2019-05-16 10:04:46,285 0:00:00.132007ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:04:48,196 0:00:00.104006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:21,388 0:00:00.109006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:21,901 0:00:00.121007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:22,117 0:00:00.112007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:22,531 0:00:00.113007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:22,717 0:00:00.119007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:22,901 0:00:00.112007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:23,091 0:00:00.118007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:23,298 0:00:00.122007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:23,495 0:00:00.125007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:23,660 0:00:00.115006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:23,825 0:00:00.133008ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 10:05:25,694 0:00:00.163009ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 10:05:28,450 0:00:00.133007ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:05:29,374 0:00:00.153009ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 10:05:33,490 0:00:01.032059ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 10:05:40,606 0:00:00.180010ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 10:05:40,796 0:00:00.360020ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 10:05:43,216 0:00:00.133008ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 10:05:44,990 0:00:00.149008ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 10:28:07,694 0:00:01.329076ms GET /api/orders/orders/ 200 4809
+20 root 2019-05-16 10:50:16,849 0:00:01.303075ms GET /api/orders/orders/ 200 3806
+20 root 2019-05-16 10:50:18,117 0:00:00.373021ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 10:50:20,049 0:00:01.060061ms GET /api/orders/orders/ 200 3806
+20 root 2019-05-16 10:50:21,861 0:00:01.178067ms GET /api/orders/orders/ 200 4809
+20 root 2019-05-16 10:52:19,023 0:00:00.609035ms GET /api/orders/orders/ 200 2071
+20 root 2019-05-16 10:52:22,538 0:00:01.006058ms GET /api/orders/orders/ 200 2071
+20 root 2019-05-16 10:52:47,787 0:00:01.086062ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 10:52:50,899 0:00:00.589034ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 10:52:54,041 0:00:00.340020ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 10:52:57,201 0:00:00.831047ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 10:53:04,737 0:00:00.179010ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:03:03,934 0:00:00.910052ms GET /api/user/auth/ 200 294
+40 django.request 2019-05-16 11:03:06,401 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "E:\wordspace\axf\orders\views.py", line 67, in orders
+    'data': serializer.data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\wordspace\axf\orders\serializre.py", line 25, in to_representation
+    data=super().to_representation(instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 513, in to_representation
+    fields = self._readable_fields
+  File "E:\envs\axf-vue\lib\site-packages\django\utils\functional.py", line 36, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 376, in _readable_fields
+    field for field in self.fields.values()
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 1050, in get_fields
+    source, info, model, depth
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 1195, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 1307, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `order_goods_info` is not valid for model `Order`.
+20 root 2019-05-16 11:03:07,518 0:00:01.301074ms GET /api/orders/orders/ 500 20277
+40 django.request 2019-05-16 11:03:50,144 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "E:\envs\axf-vue\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\wordspace\axf\utils\renderer.py", line 17, in render
+    return super().render(res,accepted_media_type=None, renderer_context=None)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\python36\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\python36\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python36\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "c:\python36\Lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ListSerializer' is not JSON serializable
+20 root 2019-05-16 11:03:54,017 0:00:04.881279ms GET /api/orders/orders/ 500 128136
+40 django.request 2019-05-16 11:06:25,269 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "E:\envs\axf-vue\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\wordspace\axf\utils\renderer.py", line 17, in render
+    return super().render(res,accepted_media_type=None, renderer_context=None)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\python36\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\python36\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python36\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "c:\python36\Lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ListSerializer' is not JSON serializable
+20 root 2019-05-16 11:06:34,490 0:00:30.052719ms GET /api/orders/orders/ 500 128367
+40 django.request 2019-05-16 11:07:00,406 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "E:\envs\axf-vue\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\wordspace\axf\utils\renderer.py", line 17, in render
+    return super().render(res,accepted_media_type=None, renderer_context=None)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\python36\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\python36\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python36\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "c:\python36\Lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ListSerializer' is not JSON serializable
+40 django.request 2019-05-16 11:07:01,762 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 156, in _get_response
+    response = response.render()
+  File "E:\envs\axf-vue\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "E:\wordspace\axf\utils\renderer.py", line 17, in render
+    return super().render(res,accepted_media_type=None, renderer_context=None)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\renderers.py", line 107, in render
+    allow_nan=not self.strict, separators=separators
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "c:\python36\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "c:\python36\Lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "c:\python36\Lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\utils\encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "c:\python36\Lib\json\encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'ListSerializer' is not JSON serializable
+20 root 2019-05-16 11:07:16,180 0:00:00.857049ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:07:18,141 0:00:00.839048ms GET /api/orders/orders/ 200 3150
+40 django.request 2019-05-16 11:19:46,582 Internal Server Error: /api/orders/orders/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\fields.py", line 453, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\fields.py", line 101, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'OrderGoods' object has no attribute 'o_user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\decorators.py", line 55, in handler
+    return func(*args, **kwargs)
+  File "E:\wordspace\axf\orders\views.py", line 67, in orders
+    'data': serializer.data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\wordspace\axf\orders\serializre.py", line 28, in to_representation
+    data['order_goods_info']=OrderSerializer(order_goods,many=True).data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super(ListSerializer, self).data
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 686, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "E:\wordspace\axf\orders\serializre.py", line 26, in to_representation
+    data=super().to_representation(instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\serializers.py", line 517, in to_representation
+    attribute = field.get_attribute(instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\relations.py", line 192, in get_attribute
+    return super(RelatedField, self).get_attribute(instance)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\fields.py", line 474, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `o_user` on serializer `OrderSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `OrderGoods` instance.
+Original exception text was: 'OrderGoods' object has no attribute 'o_user'.
+20 root 2019-05-16 11:19:47,417 0:00:01.529087ms GET /api/orders/orders/ 500 21303
+20 root 2019-05-16 11:20:41,725 0:00:01.427082ms GET /api/orders/orders/ 200 3171
+20 root 2019-05-16 11:23:12,673 0:00:01.709097ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:23:12,742 0:00:01.323075ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:23:14,221 0:00:00.820047ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:25:31,347 0:00:00.954055ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:25:31,848 0:00:00.812047ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 11:25:32,295 0:00:00.851048ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:25:33,019 0:00:00.651038ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:25:33,349 0:00:00.414024ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 11:25:34,707 0:00:00.885050ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:25:37,954 0:00:00.191011ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:25:39,420 0:00:00.543031ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:27:18,446 0:00:00.054003ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:27:18,468 0:00:00.079004ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:27:20,549 0:00:00.123007ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:27:21,204 0:00:00.043003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:27:25,898 0:00:00.033002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:27:26,318 0:00:00.040002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:27:26,733 0:00:00.038002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:27:27,254 0:00:00.040003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:27:32,040 0:00:00.040002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:27:32,700 0:00:00.136008ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:27:32,736 0:00:00.180010ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:27:33,141 0:00:00.211012ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:27:33,898 0:00:00.044003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:30:19,097 0:00:00.070004ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:30:20,343 0:00:00.043003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:30:23,078 0:00:00.146008ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:30:24,550 0:00:00.101005ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:30:25,216 0:00:00.066003ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 11:30:25,820 0:00:00.134008ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:30:26,351 0:00:00.228013ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:30:28,364 0:00:00.044003ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:30:30,213 0:00:00.033002ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 11:30:31,236 0:00:00.043003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:30:35,472 0:00:00.138008ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:30:36,847 0:00:00.052003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:30:38,494 0:00:00.244014ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:30:41,725 0:00:00.046003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:32:08,836 0:00:00.035002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:32:09,413 0:00:00.052003ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:32:09,462 0:00:00.107006ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:32:10,052 0:00:00.277016ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:32:10,786 0:00:00.047003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:32:10,865 0:00:00.117006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:32:12,066 0:00:00.260015ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:32:13,001 0:00:00.035002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:32:14,213 0:00:00.151009ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 11:32:14,675 0:00:00.054003ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:32:14,686 0:00:00.070004ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:32:17,088 0:00:00.060003ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:32:17,582 0:00:00.097005ms GET /api/goods/market/ 200 3615
+20 root 2019-05-16 11:32:20,072 0:00:00.082005ms GET /api/goods/market/ 200 21608
+20 root 2019-05-16 11:32:21,081 0:00:00.063004ms GET /api/goods/market/ 200 6310
+20 root 2019-05-16 11:32:28,910 0:00:00.059003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:32:57,849 0:00:00.050003ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:32:58,711 0:00:00.044003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:32:59,346 0:00:00.039002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:33:00,140 0:00:00.044003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:33:00,861 0:00:00.044003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:33:00,908 0:00:00.077004ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:33:01,729 0:00:00.041002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:33:02,184 0:00:00.045002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:33:03,564 0:00:00.046002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 11:33:03,627 0:00:00.099006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 11:33:04,165 0:00:00.042003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:35:00,646 0:00:00.048003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:36:02,088 0:00:00.049002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:37:52,228 0:00:00.038002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:37:56,465 0:00:00.290016ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:37:59,510 0:00:00.046003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:39:08,285 0:00:00.228013ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:39:11,978 0:00:00.053004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:39:17,970 0:00:00.231013ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:39:19,147 0:00:00.056004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:41:49,217 0:00:00.045003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:41:53,942 0:00:00.050003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:41:56,453 0:00:00.216012ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:41:58,544 0:00:00.056004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:16,313 0:00:00.153009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:21,130 0:00:00.073004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:21,894 0:00:00.169010ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:22,857 0:00:00.105006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:44:23,274 0:00:00.065004ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 11:44:23,989 0:00:00.100006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:44:24,504 0:00:00.263015ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:25,352 0:00:00.065003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:29,129 0:00:00.153008ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:30,451 0:00:00.047003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:31,388 0:00:00.156009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:32,574 0:00:00.049003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:41,263 0:00:00.062004ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 11:44:42,658 0:00:00.062003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:44:46,824 0:00:00.156009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:44:47,838 0:00:00.051003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:48:28,914 0:00:00.047002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:53:43,332 0:00:00.038002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:58:34,307 0:00:00.038002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:58:45,247 0:00:00.118007ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:58:56,383 0:00:00.100006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 11:59:22,450 0:00:00.048003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:59:27,254 0:00:00.043002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:59:33,949 0:00:00.172010ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 11:59:34,961 0:00:00.050003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 11:59:38,879 0:00:00.093005ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:00:19,285 0:00:00.088005ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:00:28,363 0:00:00.037003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:00:30,749 0:00:00.242014ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:01:03,668 0:00:00.193011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:01:26,787 0:00:00.193011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:01:29,838 0:00:00.050003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:01:32,842 0:00:00.115007ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:01:33,137 0:00:00.161009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:01:36,659 0:00:00.049003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:02:09,452 0:00:00.153009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:02:11,054 0:00:00.101006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:02:12,243 0:00:00.067004ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 12:02:13,125 0:00:00.109007ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:02:13,764 0:00:00.251014ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:02:15,010 0:00:00.097005ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:02:20,219 0:00:00.136007ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:02:24,302 0:00:00.076004ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 12:02:30,061 0:00:00.054003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:02:33,094 0:00:00.103006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:02:33,371 0:00:00.189011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 12:02:57,871 0:00:00.048003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 12:02:59,167 0:00:00.175010ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 12:02:59,513 0:00:00.236014ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:04:12,984 0:00:00.158009ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 14:04:31,694 0:00:00.301017ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:11:16,661 0:00:00.065004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:11:19,581 0:00:00.203011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:11:28,479 0:00:00.061004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:11:30,798 0:00:00.034002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 14:11:31,465 0:00:00.042002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:11:35,875 0:00:00.163010ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:17:17,744 0:00:00.058003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:17:20,261 0:00:00.159009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:17:22,645 0:00:00.073005ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:17:54,462 0:00:00.173009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:18:05,706 0:00:00.052003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:18:09,405 0:00:00.169010ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:18:29,221 0:00:00.109007ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 14:18:35,545 0:00:00.083004ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 14:19:07,079 0:00:00.108006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 14:19:10,170 0:00:00.208012ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 14:19:23,511 0:00:00.161009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:19:25,703 0:00:00.042002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:19:28,211 0:00:00.180011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:21:28,158 0:00:00.110006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 14:21:30,270 0:00:00.075004ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 14:21:34,328 0:00:00.104006ms GET /api/orders/orders/ 200 2147
+20 root 2019-05-16 14:21:38,183 0:00:00.086005ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-16 14:21:38,683 0:00:00.139008ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:21:43,918 0:00:00.049003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:22:23,424 0:00:00.176010ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:26:23,354 0:00:00.040002ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 14:26:24,719 0:00:00.083004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:26:25,438 0:00:00.043003ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 14:26:26,642 0:00:00.043002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:33:29,148 0:00:00.045002ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:42:13,242 0:00:00.188011ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:43:01,552 0:00:00.132008ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:43:04,625 0:00:00.338020ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:43:28,132 0:00:00.078004ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:43:30,970 0:00:00.159009ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 14:43:38,350 0:00:00.057003ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 14:53:11,499 0:00:00.378022ms GET /api/goods/home/ 200 6961
+40 django.request 2019-05-16 14:53:14,707 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 14:53:14,888 0:00:00.370021ms GET /api/user/auth/ 500 17085
+20 root 2019-05-16 14:53:15,572 0:00:00.002000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 14:53:16,793 0:00:00.091005ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 14:53:16,806 0:00:00.128008ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 14:53:17,490 0:00:00.078005ms GET /api/goods/home/ 200 6961
+40 django.request 2019-05-16 14:53:41,923 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 14:53:42,001 0:00:00.121007ms GET /api/user/auth/ 500 17106
+20 root 2019-05-16 14:53:42,212 0:00:00.004000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 14:53:42,585 0:00:00.054003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 14:53:42,612 0:00:00.074005ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 14:53:42,919 0:00:00.128007ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 14:53:45,886 0:00:00.330019ms GET /api/goods/home/ 200 6961
+40 django.request 2019-05-16 14:53:51,190 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 14:53:51,249 0:00:00.077005ms GET /api/user/auth/ 500 17106
+20 root 2019-05-16 14:53:52,568 0:00:00.003000ms GET /api/cart/cart/ 200 44
+40 django.request 2019-05-16 14:53:53,433 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 14:53:53,504 0:00:00.092006ms GET /api/user/auth/ 500 17106
+20 root 2019-05-16 14:53:54,172 0:00:00.002000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 14:53:55,259 0:00:00.018001ms POST /api/orders/orders/ 200 56
+20 root 2019-05-16 14:53:56,576 0:00:00.042002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 14:53:56,657 0:00:00.116007ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 14:53:58,655 0:00:00.004000ms POST /api/cart/cart/sub_cart/ 200 44
+20 root 2019-05-16 14:53:59,562 0:00:00.004000ms POST /api/cart/cart/add_cart/ 200 44
+20 root 2019-05-16 14:54:00,044 0:00:00.005001ms POST /api/cart/cart/add_cart/ 200 44
+20 root 2019-05-16 14:54:00,255 0:00:00.004000ms POST /api/cart/cart/add_cart/ 200 44
+20 root 2019-05-16 14:54:00,841 0:00:00.005000ms POST /api/cart/cart/sub_cart/ 200 44
+20 root 2019-05-16 14:54:21,902 0:00:00.004000ms POST /api/cart/cart/sub_cart/ 200 44
+20 root 2019-05-16 14:54:25,439 0:00:00.046002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 14:54:25,504 0:00:00.104006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:03:09,368 0:00:00.059003ms GET /api/goods/home/ 200 6961
+40 django.request 2019-05-16 15:03:12,462 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 15:03:13,348 0:00:00.964055ms GET /api/user/auth/ 500 17085
+20 root 2019-05-16 15:03:27,753 0:00:00.003000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 15:03:28,693 0:00:00.039003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:03:28,734 0:00:00.084005ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:03:29,505 0:00:00.200011ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:03:30,381 0:00:00.034002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:03:30,458 0:00:00.104005ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:03:48,593 0:00:00.078005ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:03:48,634 0:00:00.107006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:10:40,424 0:00:00.910052ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:10:47,719 0:00:00.003000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 15:10:48,465 0:00:00.037002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:10:48,617 0:00:00.179010ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:11:20,095 0:00:00.099005ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:11:20,157 0:00:00.155009ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:11:35,536 0:00:00.060003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:11:35,750 0:00:00.267016ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:20:15,800 0:00:00.082005ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:20:24,059 0:00:00.003000ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 15:20:24,963 0:00:00.146009ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:20:25,146 0:00:00.231013ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:28:38,776 0:00:00.250014ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:28:45,440 0:00:00.068003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:28:45,485 0:00:00.105006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:28:53,350 0:00:00.086005ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:28:53,446 0:00:00.167009ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:39:14,608 0:00:02.108121ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:39:31,396 0:00:00.375021ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:39:35,008 0:00:00.049003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:39:35,030 0:00:00.065004ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:39:38,142 0:00:00.199011ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 15:39:43,493 0:00:00.067004ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:59:26,029 0:00:00.046002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:59:26,091 0:00:00.099006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 15:59:34,283 0:00:00.099005ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 15:59:36,363 0:00:00.051003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 15:59:36,467 0:00:00.140008ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 16:19:36,961 0:00:00.081005ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 16:19:37,009 0:00:00.111006ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 16:20:35,004 0:00:00.057003ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 16:20:35,067 0:00:00.116007ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 17:31:16,900 0:00:00.417024ms GET /api/cart/cart/ 200 44
+20 root 2019-05-16 17:31:20,589 0:00:00.113006ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 17:31:20,714 0:00:00.233013ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 17:31:22,568 0:00:00.005000ms POST /api/cart/cart/add_cart/ 200 44
+20 root 2019-05-16 17:31:23,384 0:00:00.003000ms GET /api/cart/cart/ 200 44
+40 django.request 2019-05-16 17:31:24,840 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 17:31:25,065 0:00:00.359021ms GET /api/user/auth/ 500 17247
+40 django.request 2019-05-16 17:31:35,293 Internal Server Error: /api/user/auth/
+Traceback (most recent call last):
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\axf-vue\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\viewsets.py", line 116, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 455, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "E:\envs\axf-vue\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\wordspace\axf\user\views.py", line 29, in list
+    'orders_not_pay_num':user.od.all().filter(o_status=0).count(),      #用户下的订单信息
+AttributeError: 'NoneType' object has no attribute 'od'
+20 root 2019-05-16 17:31:35,368 0:00:00.148008ms GET /api/user/auth/ 500 17247
+20 root 2019-05-16 17:31:44,174 0:00:00.873050ms POST /api/user/auth/login/ 200 85
+20 root 2019-05-16 17:31:45,664 0:00:01.216069ms GET /api/goods/home/ 200 6961
+20 root 2019-05-16 17:31:47,246 0:00:00.277016ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 17:31:47,482 0:00:00.378021ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 17:31:50,294 0:00:00.470027ms GET /api/cart/cart/ 200 578
+20 root 2019-05-16 17:31:50,365 0:00:01.602092ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 17:32:00,812 0:00:00.186011ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 17:32:02,986 0:00:00.164009ms GET /api/cart/cart/ 200 578
+20 root 2019-05-16 17:32:05,606 0:00:00.036002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 17:32:05,750 0:00:00.172010ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 17:32:08,544 0:00:00.228013ms GET /api/cart/cart/ 200 578
+20 root 2019-05-16 17:47:46,481 0:00:00.401023ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 17:47:47,955 0:00:00.314018ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 20:41:00,642 0:00:00.792046ms GET /api/orders/orders/ 200 3150
+20 root 2019-05-16 20:41:07,138 0:00:00.342019ms GET /api/cart/cart/ 200 578
+20 root 2019-05-16 20:41:11,098 0:00:01.595091ms POST /api/orders/orders/ 200 61
+20 root 2019-05-16 20:41:11,902 0:00:00.441025ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 20:41:14,843 0:00:00.176010ms GET /api/cart/cart/ 200 69
+20 root 2019-05-16 20:41:16,317 0:00:00.162009ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 20:41:18,742 0:00:00.333019ms GET /api/orders/orders/ 200 3741
+20 root 2019-05-16 20:54:40,776 0:00:00.118007ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-16 20:54:40,941 0:00:00.161009ms GET /api/goods/market/ 200 1630
+20 root 2019-05-16 20:54:45,828 0:00:00.178011ms GET /api/goods/market/ 200 12537
+20 root 2019-05-16 20:54:47,750 0:00:00.294017ms GET /api/goods/market/ 200 47222
+20 root 2019-05-16 20:54:53,970 0:00:00.381021ms GET /api/goods/market/ 200 47222
+20 root 2019-05-16 20:55:00,328 0:00:00.475027ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 20:55:01,542 0:00:00.281016ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 20:55:04,011 0:00:00.629036ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 20:55:05,024 0:00:00.242014ms GET /api/cart/cart/ 200 1545
+20 root 2019-05-16 20:55:14,134 0:00:00.418024ms POST /api/cart/cart/add_cart/ 200 43
+20 root 2019-05-16 20:55:17,622 0:00:00.337019ms GET /api/cart/cart/ 200 1545
+20 root 2019-05-16 20:55:22,129 0:00:01.209069ms POST /api/orders/orders/ 200 61
+20 root 2019-05-16 20:55:22,672 0:00:00.288016ms GET /api/user/auth/ 200 294
+20 root 2019-05-16 20:55:25,312 0:00:00.700040ms GET /api/orders/orders/ 200 5263
+20 root 2019-05-16 20:55:26,512 0:00:00.606035ms GET /api/orders/orders/ 200 4260
+20 root 2019-05-16 20:55:27,435 0:00:00.686039ms GET /api/orders/orders/ 200 5263
+20 root 2019-05-17 09:02:19,057 0:00:00.200012ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-17 09:02:19,133 0:00:00.273016ms GET /api/goods/market/ 200 1630
+20 root 2019-05-17 09:02:20,486 0:00:00.526030ms GET /api/goods/home/ 200 6961
+20 root 2019-05-17 09:02:24,168 0:00:00.246014ms GET /api/user/auth/ 200 294
+20 root 2019-05-17 09:02:24,962 0:00:00.146008ms GET /api/cart/cart/ 200 69
+20 root 2019-05-17 09:02:26,618 0:00:00.092005ms GET /api/user/auth/ 200 294
+20 root 2019-05-17 09:02:27,244 0:00:00.066004ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-17 09:02:27,297 0:00:00.113007ms GET /api/goods/market/ 200 1630
+20 root 2019-05-17 09:02:27,816 0:00:00.152009ms GET /api/cart/cart/ 200 69
+20 root 2019-05-17 09:02:28,162 0:00:00.077004ms GET /api/user/auth/ 200 294
+20 root 2019-05-17 09:02:29,219 0:00:00.302017ms GET /api/orders/orders/ 200 5263
+20 root 2019-05-17 09:02:32,163 0:00:00.328019ms GET /api/orders/orders/ 200 4260
+20 root 2019-05-17 09:02:36,946 0:00:00.170010ms GET /api/orders/orders/ 200 1045
+20 root 2019-05-17 09:02:38,829 0:00:00.448025ms GET /api/orders/orders/ 200 5263
+20 root 2019-05-17 09:02:39,440 0:00:00.152008ms GET /api/user/auth/ 200 294
+20 root 2019-05-17 09:02:40,503 0:00:00.150008ms GET /api/goods/home/ 200 6961
+20 root 2019-05-17 09:02:52,788 0:00:00.110006ms GET /api/cart/cart/ 200 69
+20 root 2019-05-17 09:02:53,494 0:00:00.027001ms POST /api/orders/orders/ 200 56
+20 root 2019-05-17 09:02:54,928 0:00:00.117006ms POST /api/orders/orders/ 200 56
+20 root 2019-05-17 09:03:01,657 0:00:00.117007ms POST /api/orders/orders/ 200 56
+20 root 2019-05-17 09:03:03,808 0:00:00.042002ms GET /api/goods/foodtype/ 200 1767
+20 root 2019-05-17 09:03:03,947 0:00:00.168009ms GET /api/goods/market/ 200 1630
+20 root 2019-05-17 09:03:05,484 0:00:00.139008ms POST /api/cart/cart/sub_cart/ 200 62
+20 root 2019-05-17 09:03:06,261 0:00:00.124007ms POST /api/cart/cart/sub_cart/ 200 62
+20 root 2019-05-17 09:03:07,254 0:00:00.113006ms POST /api/cart/cart/sub_cart/ 200 62
+20 root 2019-05-17 09:03:08,237 0:00:00.103006ms POST /api/cart/cart/sub_cart/ 200 62
+20 root 2019-05-17 09:03:09,881 0:00:00.134008ms GET /api/cart/cart/ 200 69
+20 root 2019-05-17 09:03:11,292 0:00:00.161009ms GET /api/goods/home/ 200 6961
